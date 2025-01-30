@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav  {
+ 
+    position:absolute;
+    top: 3px;
+    left: 750px;
+    width: 80px;
+    height: 20px;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    padding: 20px;
+   
+   border-radius: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+li{
+    list-style: none;
+    
+}
+li a{
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+#home{
+    background-color: black;
+   
+}
+#img1{
+    width: 20%;
+}
+h1{
+    margin-top: 1px;
+    color: rgb(236, 221, 7);
+    font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   padding: 0%;
+}
+h2{
+    margin-top: 1px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0%;
+}
+#divider1{
+    height: 400px;
+    width: 400px;
+    background-color:yellow;
+    position:absolute;
+    z-index: 1;
+    transform: translate(-50%, -50%) rotate(30deg);
+    overflow: hidden;
+}
+
+
+
+#li{
+    color: #007BFF;
+}
+#in{
+    color: rgb(197, 20, 144);
+}
+#ws{
+    color: rgb(8, 209, 8);
+}
+.sci a{
+  
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid  white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+  }
+  .sci{
+    margin-top: -15px;
+    margin-left: 10px;
+  }
+  .sci a:hover{
+    background:  white;
+    color: #081b29;
+    box-shadow: white;
+    
+  }
+  .resume-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background-color: #d1c408;
+}
+  
+   #home {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    
+  }
+  #small {
+    justify-content: center;
+    align-items: center;
+    
+    width: 60%;
+    color: aliceblue;
+    margin-left: 150px;
+  }
+  #small p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(159, 159, 140);
+  }
+
+#box{
+    margin-top: 5px;
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    height: 100vh;
+}
+
+
+
+#about{
+    height: 100vh;
+   
+    background-color: rgb(3, 3, 3);
+   
+}
+
+#texty {
+  
+    color: #fdfafa;
+     text-align: center; 
+     padding: 50px 20px; 
+    margin: 50px ;
+    margin-top: -35px;
+    margin-left: 200px;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    max-width: 800px;
+    box-shadow: 0px 4px 10px rgba(168, 178, 24, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+#texty h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e5ff00; /* Highlight color for the heading */
+}
+
+
+#name{
+    font-size: 35px;
+}
+
+#education, #internships {
+    margin-top: 30px;
+}
+
+#education h3, #internships h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #e8760c;
+    text-align: left;
+}
+
+#education ul, #internships ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#education li, #internships li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+#education li strong, #internships li strong {
+    color: #fffb00;
+}
+
+#services {
+    padding: 50px;
+    background-color: black;
+}
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.service-box {
+    background: rgb(240, 211, 48);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s;
+}
+.service-box:hover {
+    transform: scale(1.05);
+}
+.service-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#services h2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color:  rgb(240, 211, 48);
+}
+
+footer {
+    background: #000000;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.footer-box {
+    text-align: center;
+}
+.footer-box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #e0ea24;
+}
